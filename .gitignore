@@ -1,0 +1,48 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+# Dependencies
+/vendor/
+/node_modules/
+# Environment & secrets (NUNCA subir esto)
+.env 
+.env.*
+!.env.example
+# Build output
+/public/build/
+ /public/hot/
+# Laravel cache
+/bootstrap/cache/*.php
+/storage/*.key
+# Logs
+/storage/logs/*.log
+# Database (si usas SQLite)
+/database/database.sqlite
+/database/*.sqlite
+# OS files
+.DS_Store Thumbs.db
+# IDE
+.idea/
+.vscode/
+*.swp
